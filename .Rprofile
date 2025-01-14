@@ -4,5 +4,8 @@ if (FALSE) {
   library(devtools)
   library(styler)
   library(lintr)
-  library(usethis)
+}
+
+if (!is.na(Sys.getenv("WSL_DISTRO_NAME", unset = NA))) {
+  options(browser = "wslview")
 }
