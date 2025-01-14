@@ -539,9 +539,9 @@
     },
     "targets": {
       "Package": "targets",
-      "Version": "1.9.1",
+      "Version": "1.10.0",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "R6",
@@ -563,7 +563,7 @@
         "vctrs",
         "yaml"
       ],
-      "Hash": "e543d1527ad26f8d6fd0f4f4b17bf39a"
+      "Hash": "a214029ecc5431b087cb177fd8e87517"
     },
     "tibble": {
       "Package": "tibble",
