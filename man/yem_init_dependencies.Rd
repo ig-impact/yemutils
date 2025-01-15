@@ -7,8 +7,7 @@
 yem_init_dependencies(
   path,
   dependencies = character(),
-  core_deps = c("targets", "tarchetypes", "fs", "pointblank", "readxl", "dplyr",
-    "visNetwork")
+  core_deps = yem_core_deps
 )
 }
 \arguments{
