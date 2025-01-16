@@ -65,9 +65,15 @@ yem_build_path <- function(..., must_exist = TRUE) {
 #' @export
 yem_find_file <- function(filename) {
   root <- yem_get_sharepoint_basepath()
-  paths <- fs::dir_ls(root, recurse = TRUE, type = "file")
-  rel_paths <- fs::path_rel(paths, start = root)
-
-  matches <- rel_paths[basename(rel_paths) == filename]
+  paths <- fs::dir_ls(root,
+    recurse = TRUE,
+    type = "file",
+    file = FALSE,
+    fail = FALSE
+  )
+  matches <- fs::path_rel(
+    paths[basename(paths) == filename],
+    start = root
+  )
   return(matches)
 }
