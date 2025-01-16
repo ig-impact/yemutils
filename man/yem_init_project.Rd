@@ -2,17 +2,20 @@
 % Please edit documentation in R/project_utils.R
 \name{yem_init_project}
 \alias{yem_init_project}
-\title{Initialize a new data analysis project}
+\title{Initialize analysis project}
 \usage{
-yem_init_project(name, path = ".", git = TRUE)
+yem_init_project(project_name, project_dir = ".", use_git = TRUE)
 }
 \arguments{
-\item{name}{Name of the project/package}
+\item{project_name}{chracter vector project name}
 
-\item{path}{Path where to create the project}
+\item{project_dir}{path}
 
-\item{git}{Should git be initialized}
+\item{use_git}{boolean Whether to use git or not}
+}
+\value{
+boolean invisible
 }
 \description{
-Initialize a new data analysis project
+Initialize analysis project
 }

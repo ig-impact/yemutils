@@ -530,6 +530,16 @@
       ],
       "Hash": "eaf84737a6da68c1e843979963c09a6b"
     },
+    "startup": {
+      "Package": "startup",
+      "Version": "0.23.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "b08d9443c81b39e2b0b52f9e6c461ce0"
+    },
     "sys": {
       "Package": "sys",
       "Version": "3.4.3",

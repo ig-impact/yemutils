@@ -13,10 +13,8 @@ RoxygenNote: 7.3.2
 Imports: 
     cli,
     fs,
-    glue,
-    purrr,
     renv,
-    rlang,
+    rprojroot,
     targets,
     usethis,
     withr
